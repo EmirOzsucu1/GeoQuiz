@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aboutactivty">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="274dp"
+                app:srcCompat="@drawable/photo1" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our topic will be a video history question game. The name of my project is &quot;I remember it like it was yesterday&quot;. There will be 10 video questions (at least 2 tests x10 questions). The application will cover all world history. First, the login page will appear. There will be 3 buttons on this page. These are: Get started, information for the quiz, and about the application. You will see the question and the video about the question, and you will get a little clue about the question by playing the video. There will be a button for true and false. If you know the correct answer, it will say &quot;True&quot; at the bottom; if you don't know, it will say &quot;False&quot;. The 33rd button will be &quot;Next&quot;. With this you will move on to the next question. While making the application, I will use Android studio and Java as code. I will design the interfaces in XML and write the necessary commands in the code section." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="366dp"
+                app:srcCompat="@drawable/photo2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Republic in Turkey, which introduced the rule of &quot;Sovereignty Unconditionally Belongs to the Nation&quot; to the state administration, is 100 years old. After the victory of the War of Independence, Mustafa Kemal Atatürk turned the face of the new Turkish state towards modernization and democracy. ​" />
+
+            <Button
+                android:id="@+id/menubutton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
